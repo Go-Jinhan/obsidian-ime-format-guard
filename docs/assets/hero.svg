@@ -1,17 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-<title id="title">IME Format Guard — 한글 입력을 끝낸 다음, 서식을 적용하세요</title>
-<desc id="desc">옵시디언에서 한글 조합 중 굵게와 기울임을 적용할 때 생기는 중복 입력을 방지하는 독립 플러그인.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#191526"/><stop offset="1" stop-color="#30204d"/></linearGradient></defs>
-<rect width="1200" height="360" rx="24" fill="url(#bg)"/>
-<rect x="52" y="47" width="186" height="31" rx="15" fill="#453361"/>
-<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-<text x="72" y="68" fill="#ddd0ff" font-size="14" letter-spacing="1">FOR OBSIDIAN</text>
-<text x="52" y="144" fill="#ffffff" font-size="52" font-weight="700">IME Format Guard</text>
-<text x="54" y="195" fill="#ded4ed" font-size="25">한글 입력이 끝난 다음, 서식을 적용합니다.</text>
-<text x="54" y="242" fill="#ac9dbc" font-size="18">Keep the syllable. Wait for composition. Then format.</text>
-<text x="54" y="310" fill="#cbb5ee" font-size="15">macOS verified · Bold &amp; Italic · No runtime dependencies</text>
-<rect x="818" y="90" width="326" height="180" rx="20" fill="#171320" stroke="#5e467f"/>
-<text x="844" y="128" fill="#bfa3e5" font-size="13" letter-spacing="2">ONE INPUT. ONE RESULT.</text>
-<text x="844" y="190" fill="#faf6ff" font-size="38" font-weight="700">안녕 → **안녕**</text>
-<text x="844" y="238" fill="#b4a5c9" font-size="17">⌘B / ⌘I</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" fill="none" role="img" aria-labelledby="banner-title banner-desc">
+<title id="banner-title">IME Format Guard for Obsidian</title>
+<desc id="banner-desc">보라색 배경과 공식 옵시디언 마크. 한글 입력이 끝난 다음, 굵게와 기울임을 적용하는 독립 커뮤니티 플러그인.</desc>
+<defs>
+  <linearGradient id="banner-bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#391272"/><stop offset=".5" stop-color="#6125b5"/><stop offset="1" stop-color="#8b4ce4"/></linearGradient>
+  <radialGradient id="banner-glow"><stop stop-color="#dfc7ff" stop-opacity=".44"/><stop offset="1" stop-color="#cab0ff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="banner-line" x1="765" x2="1230" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="banner-clip"><rect width="1280" height="440" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#banner-clip)">
+  <rect width="1280" height="440" fill="url(#banner-bg)"/>
+  <ellipse cx="1035" cy="193" rx="340" ry="320" fill="url(#banner-glow)"/>
+  <circle cx="1030" cy="203" r="174" stroke="#f0e3ff" stroke-opacity=".13"/>
+  <circle cx="1030" cy="203" r="230" stroke="#f0e3ff" stroke-opacity=".08"/>
+  <path d="M770 203H1280M1030 0V440" stroke="url(#banner-line)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif">
+    <rect x="60" y="49" width="255" height="32" rx="16" fill="#fff" fill-opacity=".10" stroke="#fff" stroke-opacity=".16"/>
+    <circle cx="78" cy="65" r="3" fill="#e9d5ff"/>
+    <text x="91" y="70" fill="#f0e4ff" font-size="13" font-weight="600" letter-spacing="1.3">AN OBSIDIAN PLUGIN</text>
+    <text x="58" y="171" fill="#ffffff" font-size="68" font-weight="750" letter-spacing="-2.5">IME Format Guard</text>
+    <text x="62" y="228" fill="#f0e4ff" font-size="27" font-weight="500">한글 입력이 끝난 다음, 서식을 적용합니다.</text>
+    <text x="62" y="264" fill="#dac2f7" font-size="18">한 번 입력한 글자는, 한 번만.</text>
+    <g transform="translate(62 310)">
+      <rect width="62" height="39" rx="8" fill="#2c0d55" fill-opacity=".38" stroke="#fff" stroke-opacity=".2"/>
+      <text x="31" y="26" text-anchor="middle" fill="#fff" font-size="19" font-weight="650">⌘B</text>
+      <text x="76" y="26" fill="#ead9ff" font-size="17">굵게</text>
+      <rect x="151" width="62" height="39" rx="8" fill="#2c0d55" fill-opacity=".38" stroke="#fff" stroke-opacity=".2"/>
+      <text x="182" y="26" text-anchor="middle" fill="#fff" font-size="19" font-weight="650">⌘I</text>
+      <text x="227" y="26" fill="#ead9ff" font-size="17">기울임</text>
+    </g>
+    <text x="62" y="401" fill="#d9bff3" font-size="12" letter-spacing=".6">INDEPENDENT COMMUNITY PROJECT</text>
+    <text x="1030" y="368" text-anchor="middle" fill="#fff" font-size="29" font-weight="600" letter-spacing="-.5">Obsidian</text>
+  </g>
+  <svg x="895" y="65" width="270" height="270" viewBox="0 0 512 512" fill="none">
+	<radialGradient id="logo-bottom-left" cx="0" cy="0" gradientTransform="matrix(-59 -225 150 -39 161.4 470)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity=".4"/>
+		<stop offset="1" stop-opacity=".1"/>
+	</radialGradient>
+	<radialGradient id="logo-top-right" cx="0" cy="0" gradientTransform="matrix(50 -379 280 37 360 374.2)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity=".6"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".1"/>
+	</radialGradient>
+	<radialGradient id="logo-top-left" cx="0" cy="0" gradientTransform="matrix(69 -319 218 47 175.4 307)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity=".8"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".4"/>
+	</radialGradient>
+	<radialGradient id="logo-bottom-right" cx="0" cy="0" gradientTransform="matrix(-96 -163 187 -111 335.3 512.2)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity=".3"/>
+		<stop offset="1" stop-opacity=".3"/>
+	</radialGradient>
+	<radialGradient id="logo-top-edge" cx="0" cy="0" gradientTransform="matrix(-36 166 -112 -24 310 128.2)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity="0"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".2"/>
+	</radialGradient>
+	<radialGradient id="logo-left-edge" cx="0" cy="0" gradientTransform="matrix(88 89 -190 187 111 220.2)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity=".2"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".4"/>
+	</radialGradient>
+	<radialGradient id="logo-bottom-edge" cx="0" cy="0" gradientTransform="matrix(9 130 -276 20 215 284)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity=".2"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".3"/>
+	</radialGradient>
+	<radialGradient id="logo-middle-edge" cx="0" cy="0" gradientTransform="matrix(-198 -104 327 -623 400 399.2)" gradientUnits="userSpaceOnUse" r="1">
+		<stop offset="0" stop-color="#fff" stop-opacity=".2"/>
+		<stop offset=".5" stop-color="#fff" stop-opacity=".2"/>
+		<stop offset="1" stop-color="#fff" stop-opacity=".3"/>
+	</radialGradient>
+	<clipPath id="clip">
+		<path d="M.2.2h512v512H.2z"/>
+	</clipPath>
+	<g clip-path="url(#clip)">
+		<path d="M382.3 475.6c-3.1 23.4-26 41.6-48.7 35.3-32.4-8.9-69.9-22.8-103.6-25.4l-51.7-4a34 34 0 0 1-22-10.2l-89-91.7a34 34 0 0 1-6.7-37.7s55-121 57.1-127.3c2-6.3 9.6-61.2 14-90.6 1.2-7.9 5-15 11-20.3L248 8.9a34.1 34.1 0 0 1 49.6 4.3L386 125.6a37 37 0 0 1 7.6 22.4c0 21.3 1.8 65 13.6 93.2 11.5 27.3 32.5 57 43.5 71.5a17.3 17.3 0 0 1 1.3 19.2 1494 1494 0 0 1-44.8 70.6c-15 22.3-21.9 49.9-25 73.1z" fill="#6c31e3"/>
+		<path d="M165.9 478.3c41.4-84 40.2-144.2 22.6-187-16.2-39.6-46.3-64.5-70-80-.6 2.3-1.3 4.4-2.2 6.5L60.6 342a34 34 0 0 0 6.6 37.7l89.1 91.7a34 34 0 0 0 9.6 7z" fill="url(#logo-bottom-left)"/>
+		<path d="M278.4 307.8c11.2 1.2 22.2 3.6 32.8 7.6 34 12.7 65 41.2 90.5 96.3 1.8-3.1 3.6-6.2 5.6-9.2a1536 1536 0 0 0 44.8-70.6 17 17 0 0 0-1.3-19.2c-11-14.6-32-44.2-43.5-71.5-11.8-28.2-13.5-72-13.6-93.2 0-8.1-2.6-16-7.6-22.4L297.6 13.2a34 34 0 0 0-1.5-1.7 96 96 0 0 1 2 54 198.3 198.3 0 0 1-17.6 41.3l-7.2 14.2a171 171 0 0 0-19.4 71c-1.2 29.4 4.8 66.4 24.5 115.8z" fill="url(#logo-top-right)"/>
+		<path d="M278.4 307.8c-19.7-49.4-25.8-86.4-24.5-115.9a171 171 0 0 1 19.4-71c2.3-4.8 4.8-9.5 7.2-14.1 7.1-13.9 14-27 17.6-41.4a96 96 0 0 0-2-54A34.1 34.1 0 0 0 248 9l-105.4 94.8a34.1 34.1 0 0 0-10.9 20.3l-12.8 85-.5 2.3c23.8 15.5 54 40.4 70.1 80a147 147 0 0 1 7.8 24.8c28-6.8 55.7-11 82.1-8.3z" fill="url(#logo-top-left)"/>
+		<path d="M333.6 511c22.7 6.2 45.6-12 48.7-35.4a187 187 0 0 1 19.4-63.9c-25.6-55-56.5-83.6-90.4-96.3-36-13.4-75.2-9-115 .7 8.9 40.4 3.6 93.3-30.4 162.2 4 1.8 8.1 3 12.5 3.3 0 0 24.4 2 53.6 4.1 29 2 72.4 17.1 101.6 25.2z" fill="url(#logo-bottom-right)"/>
+		<g clip-rule="evenodd" fill-rule="evenodd">
+			<path d="M254.1 190c-1.3 29.2 2.4 62.8 22.1 112.1l-6.2-.5c-17.7-51.5-21.5-78-20.2-107.6a174.7 174.7 0 0 1 20.4-72c2.4-4.9 8-14.1 10.5-18.8 7.1-13.7 11.9-21 16-33.6 5.7-17.5 4.5-25.9 3.8-34.1 4.6 29.9-12.7 56-25.7 82.4a177.1 177.1 0 0 0-20.7 72z" fill="url(#logo-top-edge)"/>
+			<path d="M194.3 293.4c2.4 5.4 4.6 9.8 6 16.5L195 311c-2.1-7.8-3.8-13.4-6.8-20-17.8-42-46.3-63.6-69.7-79.5 28.2 15.2 57.2 39 75.7 81.9z" fill="url(#logo-left-edge)"/>
+			<path d="M200.6 315.1c9.8 46-1.2 104.2-33.6 160.9 27.1-56.2 40.2-110.1 29.3-160z" fill="url(#logo-bottom-edge)"/>
+			<path d="M312.5 311c53.1 19.9 73.6 63.6 88.9 100-19-38.1-45.2-80.3-90.8-96-34.8-11.8-64.1-10.4-114.3 1l-1.1-5c53.2-12.1 81-13.5 117.3 0z" fill="url(#logo-middle-edge)"/>
+		</g>
+	</g>
+</svg>
+</g>
+</svg>

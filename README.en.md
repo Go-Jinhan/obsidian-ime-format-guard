@@ -86,6 +86,6 @@ Packaging copies `main.js` and `manifest.json` into `dist/ime-format-guard/` aft
 
 ## License and attribution
 
-Project code is [MIT-licensed](LICENSE). Obsidian's name and application UI belong to their respective rights holders. Screenshots use test data; the banner and flow diagram were created for this project. This is an independent project, not an official or endorsed Obsidian product.
+Project code is [MIT-licensed](LICENSE). Obsidian's name and application UI belong to their respective rights holders. Screenshots use test data; the banner and flow diagram were created for this project. The banner includes the official Obsidian mark in its original colors and proportions; the mark is not covered by this repository’s MIT license. See [image attribution](docs/assets/ATTRIBUTION.md). This is an independent project, not an official or endorsed Obsidian product.
 
 See the [official submission guide](https://docs.obsidian.md/Plugins/Releasing/Submit%20your%20plugin). A [related forum report](https://forum.obsidian.md/t/pressing-esc-to-exit-while-in-suggest-modal-will-move-last-korean-character-to-editor/100910) concerns trailing Korean input in a different interaction; it does not establish that the bugs have the same cause.

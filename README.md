@@ -147,7 +147,7 @@ npm run package   # 검사 후 dist/ime-format-guard/에 배포 파일 복사
 
 ## 라이선스와 출처
 
-프로젝트 코드는 [MIT License](LICENSE)로 공개합니다. Obsidian의 이름과 앱 UI는 해당 권리자의 자산입니다. 전후 이미지는 테스트 데이터를 사용한 실제 앱 화면이고, 배너와 흐름도는 이 프로젝트용으로 제작한 설명 이미지입니다. Obsidian의 공식 로고를 변형하거나 공식 제품으로 표시하지 않았습니다.
+프로젝트 코드는 [MIT License](LICENSE)로 공개합니다. Obsidian의 이름과 앱 UI는 해당 권리자의 자산입니다. 전후 이미지는 테스트 데이터를 사용한 실제 앱 화면이고, 배너와 흐름도는 이 프로젝트용으로 제작한 설명 이미지입니다. 배너에는 [공식 Obsidian 마크](https://obsidian.md/brand)를 원래 색상과 비율로 사용했습니다. 로고에는 이 저장소의 MIT 라이선스가 적용되지 않으며, 공식 제품이나 공식 승인을 의미하지 않습니다. [이미지 출처](docs/assets/ATTRIBUTION.md)를 참고하세요.
 
 - [Obsidian 공식 플러그인 제출 안내](https://docs.obsidian.md/Plugins/Releasing/Submit%20your%20plugin)
 - [플러그인 개발자 정책](https://docs.obsidian.md/community-directory/developer-policies)
