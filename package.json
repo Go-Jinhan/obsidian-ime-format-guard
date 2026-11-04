@@ -1,0 +1,15 @@
+{
+  "name": "obsidian-ime-format-guard",
+  "version": "0.3.1",
+  "private": true,
+  "description": "Prevent duplicate characters when toggling bold or italics during IME composition.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check main.js && node scripts/check.cjs",
+    "package": "npm run check && npm test && node scripts/package.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

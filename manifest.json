@@ -1,0 +1,10 @@
+{
+  "id": "ime-format-guard",
+  "name": "IME Format Guard",
+  "version": "0.3.1",
+  "minAppVersion": "1.14.5",
+  "description": "Prevent duplicate characters when toggling bold or italics during IME composition.",
+  "author": "Go-Jinhan",
+  "authorUrl": "https://github.com/Go-Jinhan",
+  "isDesktopOnly": true
+}
