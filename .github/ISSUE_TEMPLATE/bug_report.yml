@@ -1,0 +1,30 @@
+name: 입력 문제 신고 / Bug report
+description: 한글 입력·서식 중복 문제와 재현 환경을 알려 주세요.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 사용 환경 / Environment
+      description: 운영체제, Obsidian 앱·설치 프로그램 버전, 입력기 이름, 플러그인 버전
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서 / Steps to reproduce
+      description: 개인 노트 대신 짧은 테스트 문구와 누른 키를 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: 예상 결과와 실제 결과 / Expected and actual result
+      description: 플러그인을 켰을 때와 껐을 때를 구분해 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: other_plugins
+    attributes:
+      label: 관련 플러그인 / Related plugins
+      description: 입력이나 서식 명령을 변경하는 다른 플러그인이 있나요?

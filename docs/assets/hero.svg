@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">IME Format Guard — 한글 입력을 끝낸 다음, 서식을 적용하세요</title>
+<desc id="desc">옵시디언에서 한글 조합 중 굵게와 기울임을 적용할 때 생기는 중복 입력을 방지하는 독립 플러그인.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#191526"/><stop offset="1" stop-color="#30204d"/></linearGradient></defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+<rect x="52" y="47" width="186" height="31" rx="15" fill="#453361"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+<text x="72" y="68" fill="#ddd0ff" font-size="14" letter-spacing="1">FOR OBSIDIAN</text>
+<text x="52" y="144" fill="#ffffff" font-size="52" font-weight="700">IME Format Guard</text>
+<text x="54" y="195" fill="#ded4ed" font-size="25">한글 입력이 끝난 다음, 서식을 적용합니다.</text>
+<text x="54" y="242" fill="#ac9dbc" font-size="18">Keep the syllable. Wait for composition. Then format.</text>
+<text x="54" y="310" fill="#cbb5ee" font-size="15">macOS verified · Bold &amp; Italic · No runtime dependencies</text>
+<rect x="818" y="90" width="326" height="180" rx="20" fill="#171320" stroke="#5e467f"/>
+<text x="844" y="128" fill="#bfa3e5" font-size="13" letter-spacing="2">ONE INPUT. ONE RESULT.</text>
+<text x="844" y="190" fill="#faf6ff" font-size="38" font-weight="700">안녕 → **안녕**</text>
+<text x="844" y="238" fill="#b4a5c9" font-size="17">⌘B / ⌘I</text>
+</g></svg>

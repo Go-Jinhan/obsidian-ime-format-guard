@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-labelledby="title desc">
+<title id="title">한글 조합 종료를 기다리는 동작 순서</title><desc id="desc">한글 조합 중 서식 명령을 받으면 대기하고, compositionend 이벤트가 처리된 뒤 원래 서식 명령을 한 번 실행한다.</desc>
+<rect width="1000" height="210" rx="18" fill="#f5f2fa"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" text-anchor="middle">
+<g fill="#fff" stroke="#d8cde7"><rect x="25" y="45" width="210" height="120" rx="14"/><rect x="271" y="45" width="210" height="120" rx="14"/><rect x="517" y="45" width="210" height="120" rx="14"/><rect x="763" y="45" width="210" height="120" rx="14"/></g>
+<g fill="#725394" font-size="28"><text x="253" y="115">→</text><text x="499" y="115">→</text><text x="745" y="115">→</text></g>
+<g fill="#3c254f" font-size="21" font-weight="600"><text x="130" y="92">한글 조합 중</text><text x="376" y="92">서식 명령 대기</text><text x="622" y="92">입력 확정</text><text x="868" y="92">서식 적용</text></g>
+<g fill="#74677e" font-size="16"><text x="130" y="132">안 + 녕</text><text x="376" y="132">⌘B / ⌘I</text><text x="622" y="132">compositionend</text><text x="868" y="132">**안녕**</text></g>
+</g></svg>
