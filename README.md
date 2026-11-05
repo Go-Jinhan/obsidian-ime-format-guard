@@ -2,6 +2,8 @@
   <img src="docs/assets/hero.svg" alt="IME Format Guard — 한글 입력이 끝난 다음, 서식을 적용합니다." width="100%">
 </p>
 
+# IME Format Guard
+
 <p align="center">
   <strong>한글을 쓰고 바로 ⌘B·⌘I를 눌렀을 때, 마지막 글자가 한 번 더 붙는 문제를 위한 Obsidian 플러그인.</strong>
 </p>
@@ -16,6 +18,16 @@
 </p>
 
 > **배포 상태:** 초기 공개 버전입니다. Obsidian 커뮤니티 플러그인 목록에는 아직 등록되지 않았습니다. macOS 한글 입력에서 발견하고 검증한 문제를 다루며, 모든 입력기·운영체제에서의 해결을 보장하지 않습니다.
+
+## English overview
+
+IME Format Guard is an independent Obsidian plugin that prevents duplicate characters when toggling **bold** or *italics* during IME composition. It was developed for a reproduced Korean input issue on macOS: applying formatting before the final syllable is committed can insert that syllable again.
+
+The plugin waits for the real `compositionend` event before running the original formatting command. It does not delete repeated characters, move keyboard focus, or change your shortcuts. Input that is not composing follows the normal Obsidian behavior.
+
+Download `main.js` and `manifest.json` from [Releases](https://github.com/Go-Jinhan/obsidian-ime-format-guard/releases), place them in `<vault>/.obsidian/plugins/ime-format-guard/`, and enable **IME Format Guard** in Community plugins. Requires Obsidian 1.14.5 or later on desktop. The workaround was verified with Korean input on macOS; other operating systems and IMEs have not been verified. There are no network requests or telemetry. Internal API dependencies may affect compatibility after app updates.
+
+See the [full English guide](README.en.md) for installation, limitations, privacy, and development details. 한국어 설명은 아래에서 이어집니다.
 
 ## 어떤 문제를 해결하나요?
 
