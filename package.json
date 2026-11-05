@@ -1,6 +1,6 @@
 {
   "name": "obsidian-ime-format-guard",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "private": true,
   "description": "Prevent duplicate characters when toggling bold or italics during IME composition.",
   "license": "MIT",
