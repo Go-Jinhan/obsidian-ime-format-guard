@@ -4,7 +4,7 @@
 
 Wait for IME composition to finish before applying **bold** or *italics* in Obsidian.
 
-[한국어](README.md) · [Installation](#installation) · [Testing](docs/TESTING.md) · [Issues](https://github.com/Go-Jinhan/obsidian-ime-format-guard/issues)
+[한국어](README.ko.md) · [Installation](#installation) · [Testing](docs/TESTING.md) · [Issues](https://github.com/Go-Jinhan/obsidian-ime-format-guard/issues)
 
 > Early public release. Not yet listed in the Obsidian Community directory. Developed for a reproduced Korean input issue on macOS; compatibility with other operating systems and IMEs has not been verified.
 
